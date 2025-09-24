@@ -78,26 +78,6 @@ This will start:
   npm run start:frontend
   ```
 
-## Default Login Credentials
-
-These test accounts are created by the data generator scripts (`simple_data_generator.py` and `working_data_generator.py`). They are useful for quickly logging in with different roles.
-
-- All accounts use the same password: `password123`
-
-Test users:
-
-- admin.user@rapidsort.com — Admin (Management)
-- john.manager@rapidsort.com — Manager (Inventory)
-- sarah.sales@rapidsort.com — Manager (Sales)
-- mike.stock@rapidsort.com — Employee (Inventory)
-- lisa.warehouse@rapidsort.com — Employee (Warehouse)
-- david.purchase@rapidsort.com — Employee (Purchasing)
-- emma.logistics@rapidsort.com — Manager (Warehouse)
-- tom.sales@rapidsort.com — Employee (Sales)
-- anna.inventory@rapidsort.com — Employee (Inventory)
-- robert.buyer@rapidsort.com — Manager (Purchasing)
-
-Note: Ensure the backend is running on `http://localhost:5000` and the frontend on `http://localhost:3000` before attempting to log in.
 
 ## Available Scripts
 
